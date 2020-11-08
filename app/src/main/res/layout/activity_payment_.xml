@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    tools:context=".Patient_Fragment.Payment_Activity">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Bkash Payment"
+        android:textSize="30dp"
+        android:textColor="#fff"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
+    <TextView
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Send Money This Number"
+        android:textSize="30dp"
+        android:textColor="#fff"
+        android:id="@+id/textView1"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/button_4"
+
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="01307339856"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="20dp"
+
+        >
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/buttom_2"
+
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Enter Transcation ID below :"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="20dp"
+
+        >
+
+    </TextView>
+
+    <EditText
+        android:layout_marginTop="260dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/buttom_2"
+        android:id="@+id/p_name"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Enter  Username"
+        android:gravity="center"
+        />
+    //4
+    <AutoCompleteTextView
+        android:layout_marginTop="320dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/buttom_2"
+        android:id="@+id/p_doctor"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Enter  Doctorname"
+        android:gravity="center"
+        />
+    //3
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="380dp"
+        android:id="@+id/p_transcation"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/buttom_2"
+        android:gravity="center"
+        android:hint="Enter Transcation ID" />
+    <com.spark.submitbutton.SubmitButton
+        android:layout_marginTop="440dp"
+        android:gravity="center"
+        android:id="@+id/button11"
+        android:layout_below="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="100dp"
+        android:text="Submit"
+        android:textColor="@color/gray"
+        app:sub_btn_background="@color/white"
+        app:sub_btn_duration="1000"
+        app:sub_btn_line_color="#009688"
+        app:sub_btn_ripple_color="#009688"
+        app:sub_btn_tick_color="@color/white" />
+
+
+</RelativeLayout>

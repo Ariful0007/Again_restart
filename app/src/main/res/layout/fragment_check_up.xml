@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/main_background"
+    tools:context=".Patient_Fragment.CheckUpFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/ubuntu_regular"
+            android:text="Check Up"
+            android:textSize="26sp"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:id="@+id/d"
+
+            ></TextView>
+        <ImageView
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/d"
+            android:src="@drawable/th"
+            android:padding="2dp"
+         android:id="@+id/you"
+
+            ></ImageView>
+
+        <AutoCompleteTextView
+            android:id="@+id/p_doctor"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/buttom_2"
+            android:gravity="center"
+            android:hint="Enter  Patient Name" />
+
+        <AutoCompleteTextView
+            android:layout_marginTop="360dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/buttom_2"
+            android:id="@+id/Department"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:hint="Enter  Department name"
+            android:gravity="center"
+            />
+        <AutoCompleteTextView
+            android:layout_marginTop="430dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/buttom_2"
+            android:id="@+id/doctor_anme"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:hint="Enter  Doctor name"
+            android:gravity="center"
+            />
+        <Button
+            android:id="@+id/Register"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_4"
+            android:layout_below="@+id/doctor_anme"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Check Up"
+            >
+        </Button>
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

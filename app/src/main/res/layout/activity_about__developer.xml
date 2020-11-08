@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blur4"
+
+    tools:context=".Patient_Fragment.About_Developer">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/develper"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        app:civ_border_width="3dp"
+        app:civ_border_color="@color/common_google_signin_btn_text_light_pressed"
+        android:id="@+id/image_d"
+
+        ></de.hdodenhof.circleimageview.CircleImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ubuntu_regular"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/image_d"
+        android:text="Md Ariful Islam"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:id="@+id/name_d"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ubuntu_regular"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/name_d"
+        android:text="Email:arifulpub143@gmail.com"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/email_d"
+        ></TextView>
+    <TextView
+        android:layout_alignParentBottom="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ubuntu_regular"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/email_d"
+        android:text="Follow Us in Facebook"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/folow_d"
+        ></TextView>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/folow_d"
+        android:src="@drawable/facebook"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/follow"
+        android:onClick="follow"
+
+        ></de.hdodenhof.circleimageview.CircleImageView>
+
+
+
+
+
+</RelativeLayout>

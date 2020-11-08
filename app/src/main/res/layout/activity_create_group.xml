@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_ldpi"
+    tools:context=".Create_group">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/griuphotot"
+        android:id="@+id/image"
+
+        >
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextGroup"
+        android:hint="Group name"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:layout_marginTop="18dp"
+        android:layout_below="@id/image"
+        android:maxLines="1"
+        android:maxLength="25"
+        android:textSize="25sp"
+        android:inputType="text"
+
+        android:textAlignment="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/buttom_2"
+
+
+        >
+
+    </EditText>
+    <EditText
+        android:background="@drawable/buttom_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextGroup1"
+        android:hint="Medicine Unit"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:layout_marginTop="18dp"
+        android:layout_below="@id/editTextGroup"
+        android:maxLines="1"
+        android:maxLength="100"
+        android:textSize="25sp"
+        android:maxHeight="100dp"
+android:inputType="text"
+        android:textAlignment="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+
+
+
+
+        >
+
+    </EditText>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fltb"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        app:rippleColor="@color/colorPrimary"
+
+
+        android:src="@drawable/ic_done"
+        ></com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+</RelativeLayout>

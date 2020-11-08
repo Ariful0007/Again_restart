@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="19dp"
+    app:contentPadding="3dp"
+    app:cardElevation="2dp">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_default"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tmi"
+            ></de.hdodenhof.circleimageview.CircleImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+        <TextView
+            android:background="@drawable/buttom_2"
+            android:layout_marginTop="10dp"
+            android:id="@+id/username"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Persion name"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginRight="00dp"
+            android:layout_marginLeft="90dp"
+
+            android:gravity="center_horizontal">
+
+        </TextView>
+        <TextView
+            android:layout_below="@+id/username"
+            android:background="@drawable/buttom_2"
+            android:layout_marginTop="0dp"
+            android:id="@+id/username1"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Email Address"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="90dp"
+
+            android:gravity="center_horizontal">
+
+        </TextView>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
